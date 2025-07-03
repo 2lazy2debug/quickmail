@@ -1,0 +1,27 @@
+[project]
+name = "quickmail"
+version = "0.1.0"
+description = "A CLI client for M365 Exchange"
+authors = [
+    { name = "Manuel Cabras", email = "9106069+2lazy2debug@users.noreply.github.com" },
+]
+license = { text = "MIT" }
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = ["exchangelib (>=5.5.1,<6.0.0)"]
+
+[tool.poetry]
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.4.1"
+mypy = "^1.16.1"
+black = "^25.1.0"
+flake8 = "^7.3.0"
+
+[tool.black]
+line-length = 120
+target-version = ['py310', 'py311', 'py312', 'py313']
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
