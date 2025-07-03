@@ -11,6 +11,7 @@ requires-python = ">=3.13"
 dependencies = ["exchangelib (>=5.5.1,<6.0.0)"]
 
 [tool.poetry]
+package-mode = false
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.4.1"
