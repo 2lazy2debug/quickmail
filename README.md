@@ -21,7 +21,7 @@ A CLI client for M365 Exchange
 
 2. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git@github.com:2lazy2debug/quickmail.git
    cd quickmail
    ```
 
